@@ -16,7 +16,17 @@ aloqaClose.addEventListener("click", (e) => {
 let mobileMenu = document.querySelector(".mobile_menu");
 mobileMenu.classList.add("d-none");
 let burger = document.getElementById("burger");
+
+let burgerClose = document.getElementById("burgerClose");
 burger.addEventListener("click", (e) => {
+    burgerClose.classList.remove("d-none");
+    burger.classList.add("d-none");
+    mobileMenu.classList.toggle("d-none");
+})
+
+burgerClose.addEventListener("click", (e) => {
+    burgerClose.classList.add("d-none");
+    burger.classList.remove("d-none");
     mobileMenu.classList.toggle("d-none");
 })
 
