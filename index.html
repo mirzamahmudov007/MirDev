@@ -28,7 +28,7 @@
             <li class="list-group-item position-relative">Aloqa</li>
             <div id="aloqa">
               <button id="aloqaClose" class="btn mb-4">
-                <img src="./image/menu.png" width="40" alt="" />
+                <img src="./image/close.png" width="40" alt="" />
               </button>
 
               <input
@@ -57,7 +57,35 @@
               <li class="list-group-item">Uy</li>
               <li class="list-group-item">Kurslar</li>
               <li class="list-group-item">Video Kurslar</li>
-              <li class="list-group-item position-relative">Aloqa</li>
+              <li id="aloqaBtn" class="list-group-item position-relative">
+                Aloqa
+              </li>
+
+              <div id="aloqa1" class="d-none">
+                <button
+                  id="aloqaClose1"
+                  class="btn mb-4 w-100 position-relative"
+                >
+                  <img
+                    src="./image/close.png"
+                    width="40"
+                    class="position-absolute end-0"
+                    alt=""
+                  />
+                </button>
+
+                <input
+                  type="text"
+                  class="form-control w-100 mb-3 mt-4"
+                  placeholder="F.I.O"
+                />
+                <input
+                  type="tel"
+                  class="form-control w-100 mb-3"
+                  placeholder="Telefon Number"
+                />
+                <button class="btn btn-success">Yuborish</button>
+              </div>
             </ul>
           </div>
         </nav>

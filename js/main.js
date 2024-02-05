@@ -19,3 +19,16 @@ let burger = document.getElementById("burger");
 burger.addEventListener("click", (e) => {
     mobileMenu.classList.toggle("d-none");
 })
+
+
+let aloqaBtn1 = document.getElementById("aloqaBtn");
+let aloqa1 = document.getElementById("aloqa1");
+let aloqaClose1 = document.getElementById("aloqaClose1");
+
+aloqaBtn1.addEventListener("click", (e) => {
+    aloqa1.classList.remove("d-none");
+})
+
+aloqaClose1.addEventListener("click", (e) => {
+    aloqa1.classList.add("d-none");
+})

@@ -87,4 +87,14 @@
   z-index: 999;
 }
 
+#aloqa1 {
+  top: 55px;
+  right: 0;
+  width: 100%;
+  padding: 30px;
+  position: absolute;
+  background-color: white;
+  z-index: 999;
+}
+
 /*# sourceMappingURL=style.css.map */
