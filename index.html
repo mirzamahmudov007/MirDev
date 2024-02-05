@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container position-relative d-flex align-items-center h-50">
+        <nav class="navbar position-absolute top-0 start-0 w-100">
+          <p class="h2 text-light fw-bolder">MirDev</p>
+          <ul
+            class="list-group list-group-horizontal list-unstyled pt-3 d-sm-flex d-none"
+          >
+            <li class="list-group-item">Uy</li>
+            <li class="list-group-item">Kurslar</li>
+            <li class="list-group-item">Video Kurslar</li>
+            <li class="list-group-item position-relative">Aloqa</li>
+            <div id="aloqa">
+              <button id="aloqaClose" class="btn mb-4">
+                <img src="./image/menu.png" width="40" alt="" />
+              </button>
+
+              <input
+                type="text"
+                class="form-control w-100 mb-3"
+                placeholder="F.I.O"
+              />
+              <input
+                type="tel"
+                class="form-control w-100 mb-3"
+                placeholder="Telefon Number"
+              />
+              <button class="btn btn-success">Yuborish</button>
+            </div>
+          </ul>
+          <img
+            id="burger"
+            class="d-sm-none d-block btn btn-close-white"
+            src="./image/menu.png"
+            width="60"
+            alt=""
+          />
+
+          <div class="w-100 p-3 bg-danger mobile_menu">
+            <ul class="list-group list-unstyled pt-3">
+              <li class="list-group-item">Uy</li>
+              <li class="list-group-item">Kurslar</li>
+              <li class="list-group-item">Video Kurslar</li>
+              <li class="list-group-item position-relative">Aloqa</li>
+            </ul>
+          </div>
+        </nav>
+        <main class="main">
+          <div class="bg"></div>
+          <div class="text">
+            <p class="ms-3 mt-3">Assalomu Aleykum :)</p>
+            <h1>Dasturlashni MirDev da biz bilan birga o'rganing!</h1>
+            <button class="btn btn-success ms-2 mt-3">Bepul Kurs</button>
+            <button class="btn btn-success ms-2 mt-3">Pullik Kurs</button>
+          </div>
+        </main>
+      </div>
+    </header>
+    <script src="./js/main.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
